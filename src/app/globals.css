@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  color: white;
+  scroll-behavior: smooth;
+}
+.centerbackground {
+  background-size: center;
+  background-repeat: no-repeat;
+}
+.HeaderBackgroundImage {
+  width: 100%;
+  background-image: url("../app/Images/banner.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: black;
+}
+.darker {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.AboutMeBackgroundImage {
+  background-image: url("../app/Images/LaptopImage.png");
+}
+.WhatIdofirst {
+  background-image: url("../app/Images/web-development\ 1.jpg");
+}
+.WhatIdosecond {
+  background-image: url("../app/Images/ui-design\ 1.jpg");
+}
+.LatestPojects1 {
+  background-image: url("../app/Images/coffee.png");
+}
+.LatestProjects2 {
+  background-image: url("../app/Images/food.jpeg");
+}
+.LatestProjects3 {
+  background-image: url("../app/Images/travel.jpeg");
+}
